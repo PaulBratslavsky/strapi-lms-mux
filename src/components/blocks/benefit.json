@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_blocks_benefits",
+  "info": {
+    "displayName": "Benefit",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "home",
+        "car",
+        "plane",
+        "heart",
+        "umbrella",
+        "building"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

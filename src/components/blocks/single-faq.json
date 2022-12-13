@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_single_faqs",
+  "info": {
+    "displayName": "SingleFaq"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "text"
+    }
+  }
+}

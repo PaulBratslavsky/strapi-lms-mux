@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocks_steps",
+  "info": {
+    "displayName": "Steps",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Step": {
+      "displayName": "SingleStep",
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.single-step"
+    }
+  }
+}

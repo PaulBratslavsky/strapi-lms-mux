@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocks_benefits_s",
+  "info": {
+    "displayName": "Benefits ",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Benefit": {
+      "displayName": "Benefit",
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.benefit"
+    }
+  }
+}

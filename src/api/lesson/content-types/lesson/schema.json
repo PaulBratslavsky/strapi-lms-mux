@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lessons",
+  "info": {
+    "singularName": "lesson",
+    "pluralName": "lessons",
+    "displayName": "Lesson",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "video": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::mux-video-uploader.mux-asset",
+      "inversedBy": "lesson"
+    },
+    "thumbnail": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

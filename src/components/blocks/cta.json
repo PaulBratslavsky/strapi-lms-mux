@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_ctas",
+  "info": {
+    "displayName": "CTA",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subHeading": {
+      "type": "text"
+    },
+    "Link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.link"
+    }
+  }
+}

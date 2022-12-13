@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocks_faqs",
+  "info": {
+    "displayName": "Faqs",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "SingleFaq": {
+      "displayName": "SingleFaq",
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.single-faq"
+    }
+  }
+}

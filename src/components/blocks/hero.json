@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_blocks_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Link": {
+      "displayName": "Link",
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.link"
+    }
+  }
+}
