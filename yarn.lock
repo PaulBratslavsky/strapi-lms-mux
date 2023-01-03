@@ -9355,6 +9355,11 @@ std-env@^3.0.1:
   resolved "https://registry.yarnpkg.com/std-env/-/std-env-3.3.1.tgz#93a81835815e618c8aa75e7c8a4dc04f7c314e29"
   integrity sha512-3H20QlwQsSm2OvAxWIYhs+j01MzzqwMwGiiO1NQaJYZgJZFPuAbf95/DiKRBSTYIJ2FeGUc+B/6mPGcWP9dO3Q==
 
+strapi-plugin-duplicate-button@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-duplicate-button/-/strapi-plugin-duplicate-button-1.0.4.tgz#93d988a6275b6e33155a3d024906aab7f6b66892"
+  integrity sha512-cFfvisU25vIMu01qLZJ2FLnhHk6wNfFT0MTqDs4Q8NPlNU7U6e6Rf6THkPJC0WUHxvjJCuERiUgb7MKGjqL31A==
+
 strapi-plugin-mux-video-uploader@^2.5.1:
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/strapi-plugin-mux-video-uploader/-/strapi-plugin-mux-video-uploader-2.5.1.tgz#a92f616f847a8611fe793b51a4833218709b82e6"
